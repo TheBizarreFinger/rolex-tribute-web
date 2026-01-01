@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: #1C1C1C;
+    overflow-x: hidden;
+}
+
+/* ================= NAVBAR ================= */
+
+.hero_section {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero_section video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.navbar {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    background-color: rgb(226, 226, 226);
+    border-radius: 50px;
+    transform: translateX(-50%);
+    width: 90rem;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;
+    z-index: 10;
+    opacity: 0;
+    animation: navbarReveal 0.8s ease-out forwards;
+    animation-delay: 16s;
+}
+
+@keyframes navbarReveal {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%) translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+    }
+}
+
+.navbar .logo img {
+    max-height: 120px;
+    width: auto;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: larger;
+    color: #006039;
+    padding: 0 3rem;
+}
+
+.navbar a:first-child {
+    margin-right: auto;
+}
+
+.about {
+    height: 90vh;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 50px 50px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about h1{
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.about p{
+    font-size: 25px;
+    width: 50vw;
+}
+
+.catalog {
+    height: 90vh;
+    background-color: white;
+}
+
+/* ================= FOOTER ================= */
+
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0 10rem;
+    padding: 2rem;
+    justify-content: center;
+    list-style: none;
+    color: #BFC3C6;
+}
+
+footer ul li {
+    padding: 0 3rem;
+}
