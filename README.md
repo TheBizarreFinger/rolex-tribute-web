@@ -3,14 +3,16 @@ A premium, front-end website dedicated to the craftsmanship and legacy of Rolex 
 
 ---
 
-## Key tFeatures
+## Key Features
 * **Luxury Aesthetics:** A light-themed eye-catching UI, inspired by the Rolex brand identity colors and my UI/UX skills.
 * **Desktop View only:** Currently optimized for *desktop viewing* only. Responsiveness will be updated later.
 * **Smooth Animations:** CSS transitions for hover states and image fades.
 * **Product Gallery:** A curated look at iconic models like the Submariner, Daytona, and Datejust.
 
+## Preview
+
+
+
 ## Languages Used
 * **HTML5**
 * **CSS3**
-
-Preview
